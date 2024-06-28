@@ -19,25 +19,41 @@ h1 {
 
 nav {
     display: flex;
+    width: 100%;
 }
 
-nav li {
+.site-name, .menu, .right-nav  {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-name li {
+    float: left;
+}
+
+.menu li {
+    float: left;
     margin: 0 1rem;
+}
+
+.right-nav li {
+    float: right;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
 }
 
 nav img {
     width: 24px;
     height: 24px;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ddd;
 }
 
 main {
