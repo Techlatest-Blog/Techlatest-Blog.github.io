@@ -83,7 +83,7 @@ hr {
 
 .github-links img {
     filter: drop-shadow(1px 1px 2px #0004);
-    height: 64px;
+    height: 32px;
 }
 
 @media (max-width: 832px) {
