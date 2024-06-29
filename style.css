@@ -35,6 +35,10 @@ main {
     border: 1px solid #fff3;
 }
 
+section {
+    text-align: left;
+}
+
 code {
     font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
